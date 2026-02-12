@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Quiz App/style.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="screen active landing">
+            <h2 class="main-text">Quiz Time!</h2>
+            <p class="par">Test Your Knowledge.</p>
+            <button class="start-btn" onclick="startQuiz()">Start Quiz</button>
+        </div>
+        <div class="quiz screen">
+            <div class="quiz-header">
+                <h2 class="question-text">Question</h2>
+                <div class="info">
+                    <p>Question <span class="question-no"> </span> of <span class="question-count"> </span></p>
+                    <p class="score">Score: <span class="score-count">0</span></p>
+                </div>
+            </div>
+            <div class="answer-container"></div>
+            <div class="buttons">
+                <button class="btn-Previous">Previous</button>
+                <button class="btn-next" >Next</button>
+            </div>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+        </div>
+        <div class="screen result">
+            <div class="result-header">
+                <h2 class="main-text">Quiz Result</h2>
+            </div>
+            <div class="result-body">
+                <p>You Scored : <span class="final-score"></span> out of <span id="max-score">5</span></p>
+                <div class="result-message"></div>
+            </div>
+            <button class="restart-btn">Restart Quiz</button>
+        </div>
+    </div>
+    <script src="/Quiz App/motion.js"></script>
+</body>
+</html>
