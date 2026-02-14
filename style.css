@@ -9,7 +9,7 @@ body{
     align-items: center;
     justify-content: center;
     font-family: sans-serif;
-    min-height: 100vh;
+    height: 100vh;
 }
 button:hover{
     opacity: 0.9;
@@ -182,4 +182,5 @@ button:hover{
     margin-top: 10px;
 
 }
+
 
